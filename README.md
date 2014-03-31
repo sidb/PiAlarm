@@ -4,8 +4,12 @@ Monitoring an ADE Honeywell Accenta Mini Gen4 alarm system using the Remote Sign
 
 The Accenta uses 4 Remote Signalling outputs for use with eg a speech dialer. These are connected to the Raspberry Pi's GPIO pins via Schmitt trigger isolators.
 
-## Circuit diagram:
+### Circuit diagram:
 
 ![Circuit Diagram](Accenta2Pi.png)
+
+### Breadboard:
+
+![Breadboard](breadboard.png)
 
 
