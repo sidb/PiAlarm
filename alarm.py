@@ -43,7 +43,7 @@ if __name__ == "__main__":
           with open('/home/pi/inetpub/alarm.txt', 'a') as myfile:
             myfile.write(nowTime  + ': ' + msg + '\n')
           # Always prowl the new state
-          prowl(msg)
+          prowl(msg, msg)
           # SMS if Alarm or Duress
           if msg in ("ALARM!", "PANIC!"):
             sms(msg)
